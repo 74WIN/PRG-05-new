@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class WeaponController extends Controller
+class WeaponsController extends Controller
 {
     public function index(){
         return view('weapon');
