@@ -81,7 +81,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Story
+            User
         </div>
 
         <div class="links">
