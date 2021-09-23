@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about',[\App\Http\Controllers\AboutController::class, 'index']);
+Route::get('/weapon',[\App\Http\Controllers\WeaponController::class, 'index']);
+Route::get('/element',[\App\Http\Controllers\ElementContoller::class, 'index']);
+Route::get('/users',[\App\Http\Controllers\UserController::class, 'index']);
+
