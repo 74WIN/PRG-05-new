@@ -24,11 +24,9 @@
         main{
             border: solid black;
             background-color: #ffffff;
-            margin: auto;
             padding: 20px;
             position: relative;
             display: flex;
-            justify-content: space-evenly;
         }
         .cardBorder{
             border: solid;
@@ -43,6 +41,7 @@
             width: 150px;
             cursor: pointer;
             margin-bottom: 10px;
+            text-align: center;
         }
 
         .buttonInfo{
@@ -52,6 +51,7 @@
             width: 100px;
             cursor: pointer;
             margin-bottom: 5px;
+            text-align: center;
         }
 
 
