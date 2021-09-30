@@ -11,27 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ElementContoller;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\WeaponsController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
-Route::get('/about',[\App\Http\Controllers\AboutController::class, 'index']);
-Route::get('/weapon',[\App\Http\Controllers\WeaponsController::class, 'index']);
-Route::get('/element',[\App\Http\Controllers\ElementContoller::class, 'index']);
-Route::get('/user',[\App\Http\Controllers\UserController::class, 'index']);
+Route::get('/about',[AboutController::class, 'index']);
+Route::get('/weapon',[WeaponsController::class, 'index']);
+Route::get('/element',[ElementContoller::class, 'index']);
+Route::get('/user',[UserController::class, 'index']);
 
 
 Auth::routes();

@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class WeaponsController extends Controller
 {
     public function index(){
-        return view('weapon');
+        return view('weapons');
     }
     //
 }

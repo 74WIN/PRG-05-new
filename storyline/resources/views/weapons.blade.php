@@ -21,6 +21,16 @@
             margin: 0;
         }
 
+        main{
+            border: solid black;
+            background-color: #ffffff;
+            margin: auto;
+            padding: 20px;
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
         .full-height {
             height: 100vh;
         }
@@ -96,5 +106,53 @@
         </div>
     </div>
 </div>
+<main>
+    <div id="cards">
+        <div class="cardBorder" id="0">
+            <img class="image" src="img/Chaliapin_Steak_Don_(anime).png"/>
+            <h2>Sword</h2>
+            <p class="buttonInfo">Info</p>
+            <p class="buttonFavo">Add Favorite</p>
+        </div>
+        <div class="cardBorder" id="1">
+            <img class="image" src="img/Roast_Pork,_Just_Kidding_(anime).png"/>
+            <h2>Axe</h2>
+            <p class="buttonInfo">Info</p>
+            <p class="buttonFavo">Add Favorite</p>
+        </div>
+        <div class="cardBorder" id="2">
+            <img class="image" src="img/Boeuf_Bourguignon_(anime).png"/>
+            <h2>Bow</h2>
+            <p class="buttonInfo">Info</p>
+            <p class="buttonFavo">Add Favorite</p>
+        </div>
+        <div class="cardBorder" id="3">
+            <img class="image" src="img/Char_Okakiage_(anime).png"/>
+            <h2>Dagger</h2>
+            <p class="buttonInfo">Info</p>
+            <p class="buttonFavo">Add Favorite</p>
+        </div>
+        <div class="cardBorder" id="4">
+            <img class="image" src="img/Eggs_Benedict_(anime).png"/>
+            <h2>Staff</h2>
+            <p class="buttonInfo">Info</p>
+            <p class="buttonFavo">Add Favorite</p>
+        </div>
+        <div class="cardBorder" id="5">
+            <img class="image" src="img/Souffle_Leger_de_Grace_(anime).png"/>
+            <h2>Lance</h2>
+            <p class="buttonInfo">Info</p>
+            <p class="buttonFavo">Add Favorite</p>
+        </div>
+        <div class="cardBorder" id="6">
+            <img class="image" src="img/Fried_Bear_(Anime).png"/>
+            <h2>Long Sword</h2>
+            <p class="buttonInfo">Info</p>
+            <p class="buttonFavo">Add Favorite</p>
+        </div>
+    </div>
+    <div id="box">
+    </div>
+</main>
 </body>
 </html>

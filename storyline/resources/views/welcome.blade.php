@@ -87,7 +87,7 @@
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Profile</a>
-                    <a href="https://laracasts.com">Weapons</a>
+                    <a href="">Weapons</a>
                     <a href="https://laravel-news.com">Elements</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
