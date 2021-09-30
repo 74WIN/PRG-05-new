@@ -30,6 +30,30 @@
             display: flex;
             justify-content: space-evenly;
         }
+        .cardBorder{
+            border: solid;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .buttonFavo{
+            border: solid;
+            border-radius: 30px;
+            background-color: white;
+            width: 150px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .buttonInfo{
+            border: solid;
+            border-radius: 30px;
+            background-color: white;
+            width: 100px;
+            cursor: pointer;
+            margin-bottom: 5px;
+        }
+
 
         .full-height {
             height: 100vh;
@@ -96,13 +120,10 @@
         </div>
 
         <div class="links">
-            <a href="https://laravel.com/docs">Profile</a>
-            <a href="https://laracasts.com">Weapons</a>
-            <a href="https://laravel-news.com">Elements</a>
-            <a href="https://blog.laravel.com">Blog</a>
-            <a href="https://nova.laravel.com">Nova</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
+            <a href="{{ url('/user') }}">Profile</a>
+            <a href="{{ url('/weapon') }}">Weapons</a>
+            <a href="{{ url('/element') }}">Elements</a>
+            <a href="{{ url('/about') }}">About</a>
         </div>
     </div>
 </div>
